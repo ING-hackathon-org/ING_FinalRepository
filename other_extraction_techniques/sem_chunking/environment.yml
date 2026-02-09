@@ -1,0 +1,30 @@
+name: pdf-semantic-chunking
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python version
+  - python=3.10
+  
+  # Core dependencies
+  - pip
+  - numpy>=1.24.0,<2.0.0
+  
+  # PDF processing
+  - pymupdf>=1.23.0
+  
+  # Machine Learning / NLP
+  - pytorch>=2.0.0
+  - transformers>=4.30.0
+  - scikit-learn>=1.3.0
+  
+  # Additional pip dependencies
+  - pip:
+      - sentence-transformers>=2.2.0,<3.0.0
+      - langchain
+      - langchain-community
+      - langchain-ollama
+      - pydantic
+      - openai
+      - python-dotenv
+      - langchain-openai

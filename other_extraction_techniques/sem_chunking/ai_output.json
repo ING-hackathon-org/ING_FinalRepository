@@ -1,0 +1,18 @@
+[
+  {
+    "company": "Amazon",
+    "year": "2021",
+    "document_name": "annual_report.pdf",
+    "document_path": "Amazon/2021/annual_report.pdf",
+    "extracted_data": {
+      "emission_value": 18.0,
+      "emission_unit": "grams of CO₂e",
+      "emission_sources": [
+        "CO2",
+        "CO2e"
+      ],
+      "assurance": true,
+      "relevant_info": "Amazon committed to achieve net-zero carbon emissions across its business by 2040."
+    }
+  }
+]

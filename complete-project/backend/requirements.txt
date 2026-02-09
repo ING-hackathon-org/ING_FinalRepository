@@ -1,0 +1,18 @@
+# ESG PDF Processing Backend Requirements
+
+# Core Dependencies
+fitz==0.0.1.dev2
+PyMuPDF==1.24.0
+pandas==2.2.0
+pydantic==2.6.1
+openai==1.12.0
+tqdm==4.66.1
+python-dotenv==1.0.0
+
+# FastAPI and Server
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# Additional utilities
+aiofiles==23.2.1
